@@ -33,9 +33,8 @@ body{
     display: inline-block;
     transition: 0.5s;
 }
-
-.slide .item:nth-child(1),
-.slide .item:nth-child(2){
+.slide .item:nth-child(2),
+.slide .item:nth-child(1){
     top: 0;
     left: 0;
     transform: translate(0, 0);
@@ -43,6 +42,7 @@ body{
     width: 100%;
     height: 100%;
 }
+
 
 
 .slide .item:nth-child(3){
@@ -93,6 +93,14 @@ body{
 .content .des{
     margin-top: 10px;
     margin-bottom: 20px;
+    opacity: 0;
+    animation: animate 1s ease-in-out 0.3s 1 forwards;
+}
+
+.content .dez{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 380px;
     opacity: 0;
     animation: animate 1s ease-in-out 0.3s 1 forwards;
 }
