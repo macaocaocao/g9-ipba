@@ -89,6 +89,14 @@ body{
     animation: animate 1s ease-in-out 1 forwards;
 }
 
+.content .names{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    opacity: 0;
+    color: rgb(32, 17, 80);
+    animation: animate 1s ease-in-out 1 forwards;
+}
 
 .content .des{
     margin-top: 10px;
@@ -101,6 +109,15 @@ body{
     margin-top: 10px;
     margin-bottom: 10px;
     width: 380px;
+    opacity: 0;
+    animation: animate 1s ease-in-out 0.3s 1 forwards;
+}
+
+.content .dep{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 380px;
+    color: rgb(32, 17, 80);
     opacity: 0;
     animation: animate 1s ease-in-out 0.3s 1 forwards;
 }
